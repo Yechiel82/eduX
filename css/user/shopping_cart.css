@@ -1,0 +1,211 @@
+/* Set body margin and padding to 0 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+nav a img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #FCAF17;
+
+}
+
+nav ul li a span {
+  background-color: #f44336;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+#education-logo{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 5%;
+}
+
+#education-logo{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 5%;
+}
+
+h1 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td button {
+  background-color: #e71e1e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+td button:hover {
+  background-color: #bf2222;
+}
+
+tfoot td {
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.badge {
+  background-color: #f44336;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 5px 8px;
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  text-align: center;
+  line-height: 1;
+}
+
+.badge-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+footer {
+  position: absolute;
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  nav a {
+      margin-bottom: 10px;
+  }
+
+  nav ul {
+      flex-direction: column;
+  }
+
+  nav ul li {
+      margin-left: 0;
+      margin-bottom: 10px;
+  }
+
+  .enrollments-container {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.buttom{
+  background-color: #4CAF50;
+
+}
+
+.submit{
+  background-color: #4CAF50;
+}
